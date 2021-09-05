@@ -1,7 +1,9 @@
+import AppRouter from "./routers/AppRouter";
+import "./styles/styles.scss";
 function App() {
   return (
     <div className="App">
-      <h1>holla</h1>
+      <AppRouter />
     </div>
   );
 }
