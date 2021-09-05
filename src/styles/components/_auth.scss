@@ -14,3 +14,57 @@
   padding: 20px;
   width: 250px;
 }
+.auth__title {
+  color: darken($color: $primary, $amount: 20);
+  margin-bottom: 20px;
+  text-align: center;
+}
+.auth__form-group {
+  label {
+    color: $dark-grey;
+  }
+}
+
+.auth__form-text {
+  display: block;
+  color: lighten($color: $danger, $amount: 10);
+  margin-bottom: 10px;
+  width: 100%;
+  font-style: italic;
+}
+
+.auth__input {
+  color: $dark-grey;
+  border: 0px;
+  border-bottom: 1px solid $light-grey;
+  font-size: 16px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  height: 20px;
+  width: 100%;
+  transition: border-bottom 0.5s ease;
+  &:focus {
+    border-bottom: 1px solid $primary;
+    outline: none;
+  }
+}
+
+.auth__social_networks {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+}
+.auth__alert-error {
+  background-color: lightcoral;
+  border-radius: 5px;
+  color: white;
+  display: flex;
+  font-weight: bold;
+  justify-content: center;
+  margin-bottom: 10px;
+  padding: 5px;
+}
