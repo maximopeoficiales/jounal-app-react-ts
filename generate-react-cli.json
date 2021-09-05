@@ -12,7 +12,8 @@
       "d": false,
       "withTest": false,
       "withStory": false,
-      "withLazy": false
+      "withLazy": false,
+      "withStyle": false
     },
     "page": {
       "customTemplates": {
