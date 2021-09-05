@@ -13,6 +13,26 @@
       "withTest": true,
       "withStory": false,
       "withLazy": false
+    },
+    "page": {
+      "customTemplates": {
+        "component": "src/templates/component/TemplateName.tsx"
+      },
+      "path": "src/screens/pages",
+      "withStyle": false,
+      "withTest": true,
+      "withStory": false,
+      "withLazy": false
+    },
+    "auth": {
+      "customTemplates": {
+        "component": "src/templates/component/TemplateName.tsx"
+      },
+      "path": "src/screens/auth",
+      "withStyle": false,
+      "withTest": true,
+      "withStory": false,
+      "withLazy": false
     }
   }
 }
