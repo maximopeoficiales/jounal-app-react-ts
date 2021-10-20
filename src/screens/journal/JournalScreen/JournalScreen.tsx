@@ -1,3 +1,4 @@
+import NothingSelected from "../NothingSelected/NothingSelected";
 import Sidebar from "../Sidebar/Sidebar";
 
 interface MyProps {}
@@ -9,7 +10,7 @@ const JournalScreen = (props: MyProps) => {
     <div data-testid="JournalScreen" className="journal__main-content">
       <Sidebar />
       <main>
-        <h1>MainContent</h1>
+        <NothingSelected /> 
       </main>
     </div>
   );
