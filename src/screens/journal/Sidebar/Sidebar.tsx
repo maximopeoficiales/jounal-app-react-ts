@@ -1,3 +1,5 @@
+import JournalEntries from "../JournalEntries/JournalEntries";
+
 interface MyProps {}
 const defaultProps = {};
 const Sidebar = (props: MyProps) => {
@@ -16,6 +18,8 @@ const Sidebar = (props: MyProps) => {
         <i className="fas fa-calendar-alt fa-5x"></i>
         <p className="mt-5">New Entry</p>
       </div>
+
+      <JournalEntries />
     </aside>
   );
 };
